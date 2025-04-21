@@ -1,1 +1,1 @@
-# Inheritance-assignment
+ OMAGWU DANIEL UGBEDE-OJO 2300286 23CD010313 Computer Science 
