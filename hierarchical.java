@@ -1,4 +1,4 @@
-class mammal{
+class Mammal{
     public void display(){
         System.out.println("A mammal");
 
@@ -6,26 +6,26 @@ class mammal{
     }
 }
 
-class lion extends mammal{
+class Lion extends mammal{
     public void details() {
-        System.out.println("lion is a mammal");
+        System.out.println("Lion is a mammal");
 
     }
 }
 
-class tiger extends mammal {
+class Tiger extends mammal {
     public void show() {
-        System.out.println("tiger is a mammal");
+        System.out.println("Tiger is a mammal");
 
     }
     public static void main(String[] args) {
-        lion input=new lion();
+        Lion input=new Lion();
         input.display();
         input.details();
 
 
 
-        tiger done=new tiger();
+        Tiger done=new Tiger();
         done.show();
         done.display();
 
