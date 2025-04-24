@@ -4,7 +4,7 @@ class Animal{
     }
 }
 
-class Chicken extends Animal{
+public class Chicken extends Animal{
     public void display(){
         System.out.println("A chicken is an animal");
     }
