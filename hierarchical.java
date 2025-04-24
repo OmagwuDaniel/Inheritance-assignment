@@ -6,14 +6,14 @@ class Mammal{
     }
 }
 
-class Lion extends Mammal{
+public class Lion extends Mammal{
     public void details() {
         System.out.println("Lion is a mammal");
 
     }
 }
 
-class Tiger extends Mammal {
+public class Tiger extends Mammal {
     public void show() {
         System.out.println("Tiger is a mammal");
 
