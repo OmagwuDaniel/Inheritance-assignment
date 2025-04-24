@@ -1,21 +1,21 @@
-class Mammal{
+class Animal{
     public void display(){
-        System.out.println("A mammal");
+        System.out.println("An Animal");
 
 
     }
 }
 
-public class Lion extends Mammal{
+public class Lion extends Animal{
     public void details() {
-        System.out.println("Lion is a mammal");
+        System.out.println("Lion is an Animal");
 
     }
 }
 
-public class Tiger extends Mammal {
+public class Tiger extends Animal {
     public void show() {
-        System.out.println("Tiger is a mammal");
+        System.out.println("Tiger is an Animal ");
 
     }
     public static void main(String[] args) {
