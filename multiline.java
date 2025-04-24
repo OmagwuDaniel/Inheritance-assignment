@@ -1,12 +1,12 @@
-class Animals{
+class Animal{
     public void display(){
-        System.out.println("animals");
+        System.out.println("Animals");
 
 
     }
 }
 
-public class Mammals extends Animals {
+public class Mammals extends Animal {
     public void details() {
         System.out.println("Mammals");
 
